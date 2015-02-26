@@ -20,10 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
+<<<<<<< HEAD
 Type this in your terminal:
 
 		$ ruby poro.rb your_daily_tasks.txt
 
+=======
+```bash
+$ ruby poro.rb your_daily_tasks.txt
+```
+>>>>>>> 8ecef0ca950353f6f330713dde36bc271214647e
 
 ## Development
 
