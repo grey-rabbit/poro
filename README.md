@@ -20,29 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 333a80c84f4d8a4421daf50a387ef76867df86c1
->>>>>>> 18d54f24e430ffd5dcbc8d72a2a09cf4a9991c8e
 Type this in your terminal:
 
 		$ ruby poro.rb your_daily_tasks.txt
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-```bash
-$ ruby poro.rb your_daily_tasks.txt
-```
->>>>>>> 8ecef0ca950353f6f330713dde36bc271214647e
->>>>>>> 333a80c84f4d8a4421daf50a387ef76867df86c1
-
->>>>>>> 18d54f24e430ffd5dcbc8d72a2a09cf4a9991c8e
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
