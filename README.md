@@ -1,8 +1,6 @@
 # Poro
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/poro`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Command line that takes a file witch countains the program and with known syntaxe and the it pareses it so it could tell you witch task to do 
 
 ## Installation
 
@@ -22,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Type this in your terminal:
+
+		$ ruby poro.rb your_daily_tasks.txt
+
 
 ## Development
 
