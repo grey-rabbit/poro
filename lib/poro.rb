@@ -9,23 +9,27 @@
 require "poro/version"
 
 module Poro
-#core method
-def wake_me_up(file)
-  begin
-    poro = File.open(file).readlines
-  rescue 
-    puts "-- Usage: Poro yourprogram.txt"
-    exit
+  attr_accessor :name
+  def initialize(name="myporo")
+    @name = name
   end
-  mytime = "#{Time.new.hour}:#{Time.new.min}"
-  poro = poro.reject { |l| l.include?("#") }
-  poro.each do |it|
-    t1, t2, tasks = it.chomp.split('-')
-    if t1 < mytime && t2 > mytime
-      puts "Now it is: #{mytime} ,and it is time to: #{tasks}"
+  #core method
+  def wake_me_up(file)
+    begin
+      poro = File.open(file).readlines
+    rescue 
+      puts "-- Usage: Poro yourprogram.txt"
+      exit
+    end
+    mytime = "#{Time.new.hour}:#{Time.new.min}"
+    poro = poro.reject { |l| l.include?("#") }
+    poro.each do |it|
+      t1, t2, tasks = it.chomp.split('-')
+      if t1 < mytime && t2 > mytime
+        puts "Now it is: #{mytime} ,and it is time to: #{tasks}"
+      end
     end
   end
-end
 ############################################
 # calling main method : 
 # wake_me_up(ARGV[0])
