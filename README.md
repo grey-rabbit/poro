@@ -24,7 +24,6 @@ Type this in your terminal:
 
 		$ ruby poro.rb your_daily_tasks.txt
 
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
