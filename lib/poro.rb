@@ -9,12 +9,8 @@
 require "poro/version"
 
 module Poro
-  attr_accessor :name
-  def initialize(name="myporo")
-    @name = name
-  end
   #core method
-  def wake_me_up(file)
+  def self.poro(file)
     begin
       poro = File.open(file).readlines
     rescue 
@@ -32,5 +28,6 @@ module Poro
   end
 ############################################
 # calling main method : 
-# wake_me_up(ARGV[0])
 end
+puts "my version: " + Poro::VERSION
+# Poro.poro(ARGV[0])
