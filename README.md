@@ -1,6 +1,7 @@
-# Poro
+# Poro (its not working right now and under developement - contibutions are welcom )
 
 Command line that takes a file witch countains the program and with known syntaxe and the it pareses it so it could tell you witch task to do 
+this project was just an initiation to github and the git VCS and is my first gem i've ever built, contributions are so welcomed :)
 
 ## Installation
 
